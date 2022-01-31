@@ -112,6 +112,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &11252330 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 743193749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &11252331
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11252330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
 --- !u!1 &13822997
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,9 +471,10 @@ GameObject:
   - component: {fileID: 38207670}
   - component: {fileID: 38207669}
   - component: {fileID: 38207668}
+  - component: {fileID: 38207672}
   m_Layer: 0
-  m_Name: Barbecue (2)
-  m_TagString: Untagged
+  m_Name: Barbecue
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -511,12 +532,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38207667}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -5.309, y: 1.166, z: 9.162}
+  m_LocalPosition: {x: -5.47, y: 1.27, z: 9.136}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &38207672
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 38207667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &42583859
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,9 +640,10 @@ GameObject:
   - component: {fileID: 43586902}
   - component: {fileID: 43586901}
   - component: {fileID: 43586900}
+  - component: {fileID: 43586904}
   m_Layer: 0
-  m_Name: Classic (1)
-  m_TagString: Untagged
+  m_Name: Classic
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -671,6 +707,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &43586904
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 43586899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &49342860
 GameObject:
   m_ObjectHideFlags: 0
@@ -1045,9 +1095,10 @@ GameObject:
   - component: {fileID: 94833432}
   - component: {fileID: 94833431}
   - component: {fileID: 94833430}
+  - component: {fileID: 94833434}
   m_Layer: 0
-  m_Name: Onion (2)
-  m_TagString: Untagged
+  m_Name: Onion
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1111,6 +1162,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &94833434
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94833429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &96298288
 GameObject:
   m_ObjectHideFlags: 0
@@ -1199,9 +1264,10 @@ GameObject:
   - component: {fileID: 116003708}
   - component: {fileID: 116003707}
   - component: {fileID: 116003706}
+  - component: {fileID: 116003710}
   m_Layer: 0
-  m_Name: Classic (3)
-  m_TagString: Untagged
+  m_Name: Classic
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1265,6 +1331,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &116003710
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116003705}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &177109126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,9 +1511,10 @@ GameObject:
   - component: {fileID: 189639234}
   - component: {fileID: 189639233}
   - component: {fileID: 189639232}
+  - component: {fileID: 189639236}
   m_Layer: 0
-  m_Name: Wine (15)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1499,6 +1580,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &189639236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189639231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &195483157
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,9 +1605,10 @@ GameObject:
   - component: {fileID: 195483160}
   - component: {fileID: 195483159}
   - component: {fileID: 195483158}
+  - component: {fileID: 195483162}
   m_Layer: 0
-  m_Name: Wine (14)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1578,6 +1674,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &195483162
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195483157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &209287491 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100294, guid: adadb377b4c97b348951fc96bd369ea5,
@@ -1675,6 +1785,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 211965328}
   m_Mesh: {fileID: 4300018, guid: 796f1597df42683468ca76ea6d324790, type: 3}
+--- !u!1 &244407017 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2104728810}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &244407018
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 244407017}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
 --- !u!1 &265328279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1832,9 +1962,10 @@ GameObject:
   - component: {fileID: 278415287}
   - component: {fileID: 278415286}
   - component: {fileID: 278415285}
+  - component: {fileID: 278415289}
   m_Layer: 0
-  m_Name: Wine (4)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1900,6 +2031,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &278415289
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 278415284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &285077074
 GameObject:
   m_ObjectHideFlags: 0
@@ -1986,7 +2131,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_Name
-      value: Hamburger (3)
+      value: Hamburger
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -2601,9 +2750,10 @@ GameObject:
   - component: {fileID: 329948002}
   - component: {fileID: 329948001}
   - component: {fileID: 329948000}
+  - component: {fileID: 329948004}
   m_Layer: 0
-  m_Name: Wine (2)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2669,6 +2819,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &329948004
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329947999}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &340773168 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -2902,9 +3066,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 367118410}
+  - component: {fileID: 367118412}
   m_Layer: 0
-  m_Name: pepsi (2)
-  m_TagString: Untagged
+  m_Name: Pepsi
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2927,6 +3092,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &367118412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367118409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &367188000
 GameObject:
   m_ObjectHideFlags: 0
@@ -2936,9 +3115,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 367188001}
+  - component: {fileID: 367188003}
   m_Layer: 0
-  m_Name: pepsi (1)
-  m_TagString: Untagged
+  m_Name: Pepsi
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2961,6 +3141,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &367188003
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367188000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &385229499
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,9 +3320,10 @@ GameObject:
   - component: {fileID: 388794227}
   - component: {fileID: 388794226}
   - component: {fileID: 388794225}
+  - component: {fileID: 388794229}
   m_Layer: 0
   m_Name: Onion
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3192,6 +3387,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &388794229
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388794224}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &419171556
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,6 +3570,26 @@ Transform:
   m_Father: {fileID: 1591187708}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 6.54, y: 0, z: 0}
+--- !u!1 &435486130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1969310138}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &435486131
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435486130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &441782536 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100008, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -3935,9 +4164,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 521975640}
+  - component: {fileID: 521975642}
   m_Layer: 0
-  m_Name: 7up (3)
-  m_TagString: Untagged
+  m_Name: 7Up
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3960,6 +4190,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &521975642
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 521975639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &523949224
 GameObject:
   m_ObjectHideFlags: 0
@@ -4496,9 +4740,10 @@ GameObject:
   - component: {fileID: 628525083}
   - component: {fileID: 628525082}
   - component: {fileID: 628525081}
+  - component: {fileID: 628525085}
   m_Layer: 0
   m_Name: Barbecue
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4562,6 +4807,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &628525085
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 628525080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &644357722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5006,7 +5265,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_Name
-      value: Coke Can (2)
+      value: Coke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5448,7 +5711,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_Name
-      value: Coke Can (3)
+      value: Coke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5508,6 +5775,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
+--- !u!1 &748104456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1713193716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &748104457
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748104456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
 --- !u!1 &750538822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100026, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -5539,9 +5826,10 @@ GameObject:
   - component: {fileID: 757260847}
   - component: {fileID: 757260846}
   - component: {fileID: 757260845}
+  - component: {fileID: 757260849}
   m_Layer: 0
-  m_Name: Barbecue (1)
-  m_TagString: Untagged
+  m_Name: Barbecue
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5599,12 +5887,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757260844}
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -6.075, y: 1.166, z: 9.162}
+  m_LocalPosition: {x: -6.08, y: 1.166, z: 9.162}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &757260849
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757260844}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &759057722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,6 +6185,7 @@ GameObject:
   - component: {fileID: 806772998}
   - component: {fileID: 806772997}
   - component: {fileID: 806772996}
+  - component: {fileID: 806773000}
   m_Layer: 0
   m_Name: Wine
   m_TagString: Untagged
@@ -5951,6 +6254,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &806773000
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806772995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &808473106
 GameObject:
   m_ObjectHideFlags: 0
@@ -6131,8 +6448,8 @@ GameObject:
   - component: {fileID: 843514717}
   - component: {fileID: 843514718}
   m_Layer: 0
-  m_Name: pepsi
-  m_TagString: Untagged
+  m_Name: Pepsi
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6446,9 +6763,10 @@ GameObject:
   - component: {fileID: 852300799}
   - component: {fileID: 852300798}
   - component: {fileID: 852300797}
+  - component: {fileID: 852300801}
   m_Layer: 0
-  m_Name: Wine (1)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6514,6 +6832,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &852300801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852300796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &870076293
 GameObject:
   m_ObjectHideFlags: 0
@@ -7208,6 +7540,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6dd2e9eb394b3945a9bfe636a0ce4b3, type: 3}
+--- !u!1 &955648818 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1574491508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &955648819 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400002, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1574491508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &955648823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955648818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179354f6209bb5b4bb5ed319e63241ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  internalObject: 
 --- !u!1 &957814596 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 9783989f7a5cb9048960aaeff0bc69e6,
@@ -7320,6 +7677,77 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 180.00002, z: -180}
+--- !u!1 &958523766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 9783989f7a5cb9048960aaeff0bc69e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1646684591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &958523770
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958523766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2056605, y: 0.37433258, z: 0.028983232}
+  m_Center: {x: 0.0065555777, y: 0.00000005415097, z: 0.10181882}
+--- !u!65 &958523771
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958523766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2056605, y: 0.37433258, z: 0.022959257}
+  m_Center: {x: 0.0065555708, y: -0.00000003938317, z: -0.13538949}
+--- !u!65 &958523772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958523766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2056605, y: 0.012373798, z: 0.2631798}
+  m_Center: {x: 0.0065555996, y: -0.18097982, z: -0.015279684}
+--- !u!65 &958523773
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958523766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2056605, y: 0.0151962945, z: 0.2631798}
+  m_Center: {x: 0.006555549, y: 0.17956904, z: -0.015278741}
+--- !u!65 &958523774
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958523766}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044040006, y: 0.37433258, z: 0.2631798}
+  m_Center: {x: -0.07425471, y: 0.000000046380556, z: -0.015279441}
 --- !u!1 &958760673
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,9 +7851,10 @@ GameObject:
   - component: {fileID: 970608289}
   - component: {fileID: 970608288}
   - component: {fileID: 970608287}
+  - component: {fileID: 970608291}
   m_Layer: 0
-  m_Name: Wine (17)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7491,6 +7920,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &970608291
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970608286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &975084853
 GameObject:
   m_ObjectHideFlags: 0
@@ -7789,9 +8232,10 @@ GameObject:
   - component: {fileID: 1003702391}
   - component: {fileID: 1003702390}
   - component: {fileID: 1003702389}
+  - component: {fileID: 1003702393}
   m_Layer: 0
-  m_Name: Cylinder (2)
-  m_TagString: Untagged
+  m_Name: Beans
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7855,6 +8299,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 55
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1003702393
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1003702388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 41db564736b8df4459f1b7a93bb51da9, type: 3}
+--- !u!1 &1004219837 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8,
+    type: 3}
+  m_PrefabInstance: {fileID: 296432388}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1004219838
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1004219837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1025906001
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,9 +8344,10 @@ GameObject:
   - component: {fileID: 1025906004}
   - component: {fileID: 1025906003}
   - component: {fileID: 1025906002}
+  - component: {fileID: 1025906006}
   m_Layer: 0
   m_Name: Banana
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7932,6 +8411,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!64 &1025906006
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1025906001}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d61abd88cdc3aba43995791439d8af7c, type: 3}
 --- !u!1 &1026095311
 GameObject:
   m_ObjectHideFlags: 0
@@ -8074,9 +8567,10 @@ GameObject:
   - component: {fileID: 1051980733}
   - component: {fileID: 1051980732}
   - component: {fileID: 1051980731}
+  - component: {fileID: 1051980735}
   m_Layer: 0
-  m_Name: Wine (13)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8142,6 +8636,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1051980735
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051980730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1056318032
 GameObject:
   m_ObjectHideFlags: 0
@@ -8414,9 +8922,10 @@ GameObject:
   - component: {fileID: 1088296104}
   - component: {fileID: 1088296103}
   - component: {fileID: 1088296102}
+  - component: {fileID: 1088296106}
   m_Layer: 0
-  m_Name: Spicy (3)
-  m_TagString: Untagged
+  m_Name: Spicy
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8480,6 +8989,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1088296106
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088296101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1150514865
 GameObject:
   m_ObjectHideFlags: 0
@@ -8489,9 +9012,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1150514866}
+  - component: {fileID: 1150514868}
   m_Layer: 0
-  m_Name: 7up (2)
-  m_TagString: Untagged
+  m_Name: 7Up
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8514,6 +9038,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &1150514868
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150514865}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1159789913
 GameObject:
   m_ObjectHideFlags: 0
@@ -8668,6 +9206,26 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1169347372}
   m_Mesh: {fileID: 4300022, guid: 796f1597df42683468ca76ea6d324790, type: 3}
+--- !u!1 &1171415412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 156665081e0e6304186a4c3e61614892,
+    type: 3}
+  m_PrefabInstance: {fileID: 2098680548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1171415413
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171415412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1171961176
 GameObject:
   m_ObjectHideFlags: 0
@@ -8852,6 +9410,26 @@ Transform:
   m_Father: {fileID: 787383703}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+--- !u!1 &1188478798 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a,
+    type: 3}
+  m_PrefabInstance: {fileID: 678884310}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1188478799
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188478798}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
 --- !u!1 &1192671938
 GameObject:
   m_ObjectHideFlags: 0
@@ -8939,9 +9517,10 @@ GameObject:
   - component: {fileID: 1195558173}
   - component: {fileID: 1195558172}
   - component: {fileID: 1195558171}
+  - component: {fileID: 1195558175}
   m_Layer: 0
-  m_Name: Wine (12)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9007,6 +9586,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1195558175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1195558170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1207900255
 GameObject:
   m_ObjectHideFlags: 0
@@ -9396,6 +9989,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1533244678}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1316071714
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316071713}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!64 &1316071715
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9721,9 +10328,10 @@ GameObject:
   - component: {fileID: 1341689257}
   - component: {fileID: 1341689256}
   - component: {fileID: 1341689255}
+  - component: {fileID: 1341689259}
   m_Layer: 0
-  m_Name: Wine (8)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9789,6 +10397,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1341689259
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341689254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1001 &1343351379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9965,9 +10587,10 @@ GameObject:
   - component: {fileID: 1352585352}
   - component: {fileID: 1352585351}
   - component: {fileID: 1352585350}
+  - component: {fileID: 1352585354}
   m_Layer: 0
-  m_Name: Barbecue (3)
-  m_TagString: Untagged
+  m_Name: Barbecue
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10031,6 +10654,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1352585354
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352585349}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1001 &1377657272
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10099,9 +10736,10 @@ GameObject:
   - component: {fileID: 1396980907}
   - component: {fileID: 1396980906}
   - component: {fileID: 1396980905}
+  - component: {fileID: 1396980909}
   m_Layer: 0
   m_Name: Banana (1)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10165,6 +10803,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 57
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!64 &1396980909
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396980904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d61abd88cdc3aba43995791439d8af7c, type: 3}
 --- !u!1 &1398566493
 GameObject:
   m_ObjectHideFlags: 0
@@ -10253,9 +10905,10 @@ GameObject:
   - component: {fileID: 1431162381}
   - component: {fileID: 1431162380}
   - component: {fileID: 1431162379}
+  - component: {fileID: 1431162383}
   m_Layer: 0
-  m_Name: Wine (7)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10321,6 +10974,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1431162383
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431162378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
+--- !u!1 &1445479668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1474702177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1445479669
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445479668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1462328554
 GameObject:
   m_ObjectHideFlags: 0
@@ -10486,9 +11173,10 @@ GameObject:
   - component: {fileID: 1465456898}
   - component: {fileID: 1465456897}
   - component: {fileID: 1465456896}
+  - component: {fileID: 1465456900}
   m_Layer: 0
-  m_Name: Onion (1)
-  m_TagString: Untagged
+  m_Name: Onion
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10552,6 +11240,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1465456900
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465456895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1468760117
 GameObject:
   m_ObjectHideFlags: 0
@@ -10714,7 +11416,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_Name
-      value: Hamburger (1)
+      value: Hamburger
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11087,6 +11793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Foil
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 156665081e0e6304186a4c3e61614892, type: 3}
+      propertyPath: m_TagString
+      value: Product
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 156665081e0e6304186a4c3e61614892, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.18
@@ -11169,7 +11879,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538264043}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4080f1e1cacf2f142918aaf7a6853d46, type: 3}
   m_Name: 
@@ -11508,7 +12218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.615
+      value: -2.851
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11516,7 +12226,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.z
@@ -11524,7 +12234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
@@ -11536,7 +12246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -11717,9 +12427,10 @@ GameObject:
   - component: {fileID: 1580093784}
   - component: {fileID: 1580093783}
   - component: {fileID: 1580093782}
+  - component: {fileID: 1580093786}
   m_Layer: 0
-  m_Name: Spicy (2)
-  m_TagString: Untagged
+  m_Name: Spicy
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11783,6 +12494,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1580093786
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580093781}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1591187707
 GameObject:
   m_ObjectHideFlags: 0
@@ -11912,9 +12637,10 @@ GameObject:
   - component: {fileID: 1599735512}
   - component: {fileID: 1599735511}
   - component: {fileID: 1599735510}
+  - component: {fileID: 1599735514}
   m_Layer: 0
-  m_Name: Wine (3)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11980,6 +12706,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1599735514
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599735509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1606360806
 GameObject:
   m_ObjectHideFlags: 0
@@ -11989,9 +12729,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1606360807}
+  - component: {fileID: 1606360809}
   m_Layer: 0
-  m_Name: pepsi (3)
-  m_TagString: Untagged
+  m_Name: Pepsi
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12014,6 +12755,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &1606360809
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606360806}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1608571283
 GameObject:
   m_ObjectHideFlags: 0
@@ -12025,9 +12780,10 @@ GameObject:
   - component: {fileID: 1608571286}
   - component: {fileID: 1608571285}
   - component: {fileID: 1608571284}
+  - component: {fileID: 1608571288}
   m_Layer: 0
-  m_Name: Wine (10)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12093,6 +12849,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1608571288
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608571283}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1610616823
 GameObject:
   m_ObjectHideFlags: 0
@@ -12178,13 +12948,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1610616823}
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalRotation: {x: 0.0014057878, y: 0.0023563278, z: -0.7076941, w: 0.7065137}
   m_LocalPosition: {x: 1.2686844, y: -4.3162947, z: 0.6384678}
   m_LocalScale: {x: 0.29620662, y: 0.70757025, z: 0.27839223}
   m_Children: []
   m_Father: {fileID: 787383703}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+  m_LocalEulerAnglesHint: {x: 0.305, y: 0.07700001, z: -90.095}
 --- !u!1 &1612404170
 GameObject:
   m_ObjectHideFlags: 0
@@ -12196,9 +12966,10 @@ GameObject:
   - component: {fileID: 1612404173}
   - component: {fileID: 1612404172}
   - component: {fileID: 1612404171}
+  - component: {fileID: 1612404175}
   m_Layer: 0
-  m_Name: Wine (5)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12264,6 +13035,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1612404175
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612404170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1001 &1646684591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12271,37 +13056,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1825972556}
     m_Modifications:
+    - target: {fileID: 100000, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
+      propertyPath: m_Name
+      value: basket-alt
+      objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_Name
-      value: Basket (4)
+      value: Basket
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.8
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.351
+      value: 0.22
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.066
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.65717804
+      value: -0.010416879
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.26099187
+      value: -0.70703024
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.26099187
+      value: -0.7070299
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.65717846
+      value: 0.010416697
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_RootOrder
@@ -12313,11 +13102,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 345.96
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -29.279999
+      value: 1.6879883
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 9783989f7a5cb9048960aaeff0bc69e6, type: 3}
       propertyPath: m_LocalScale.x
@@ -12344,9 +13133,10 @@ GameObject:
   - component: {fileID: 1646802574}
   - component: {fileID: 1646802573}
   - component: {fileID: 1646802572}
+  - component: {fileID: 1646802576}
   m_Layer: 0
-  m_Name: Wine (9)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12412,6 +13202,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1646802576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1646802571}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1664812534
 GameObject:
   m_ObjectHideFlags: 0
@@ -12500,9 +13304,10 @@ GameObject:
   - component: {fileID: 1668429017}
   - component: {fileID: 1668429016}
   - component: {fileID: 1668429015}
+  - component: {fileID: 1668429019}
   m_Layer: 0
-  m_Name: Cylinder
-  m_TagString: Untagged
+  m_Name: Beans
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12566,6 +13371,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1668429019
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668429014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 41db564736b8df4459f1b7a93bb51da9, type: 3}
 --- !u!1 &1668899226
 GameObject:
   m_ObjectHideFlags: 0
@@ -12577,9 +13396,10 @@ GameObject:
   - component: {fileID: 1668899229}
   - component: {fileID: 1668899228}
   - component: {fileID: 1668899227}
+  - component: {fileID: 1668899231}
   m_Layer: 0
-  m_Name: Cylinder (3)
-  m_TagString: Untagged
+  m_Name: Beans
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12643,6 +13463,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 56
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1668899231
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668899226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 41db564736b8df4459f1b7a93bb51da9, type: 3}
 --- !u!1 &1672136606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13222,7 +14056,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_Name
-      value: Coke Can (1)
+      value: Coke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13793,7 +14631,7 @@ GameObject:
   - component: {fileID: 1760324830}
   m_Layer: 0
   m_Name: Plane (6)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13882,9 +14720,10 @@ GameObject:
   - component: {fileID: 1761248039}
   - component: {fileID: 1761248038}
   - component: {fileID: 1761248037}
+  - component: {fileID: 1761248041}
   m_Layer: 0
   m_Name: Classic
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13948,6 +14787,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1761248041
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761248036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1775290847 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100010, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -14286,9 +15139,10 @@ GameObject:
   - component: {fileID: 1815643646}
   - component: {fileID: 1815643645}
   - component: {fileID: 1815643644}
+  - component: {fileID: 1815643648}
   m_Layer: 0
-  m_Name: Classic (2)
-  m_TagString: Untagged
+  m_Name: Classic
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14352,6 +15206,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1815643648
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815643643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1815939218 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -14398,6 +15266,111 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.5
   gravity: 10
+--- !u!1 &1826761702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1826761703}
+  - component: {fileID: 1826761706}
+  - component: {fileID: 1826761705}
+  - component: {fileID: 1826761704}
+  - component: {fileID: 1826761707}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1826761703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826761702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.888}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
+  m_Children: []
+  m_Father: {fileID: 955648819}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1826761704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826761702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1826761705
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826761702}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 06089b12205e8ff4e9d56869491826cf, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1826761706
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826761702}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1826761707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826761702}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 721b9443d52ac6843978f727ad85d62b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectHit: 
 --- !u!1 &1837304521 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8,
@@ -14506,9 +15479,10 @@ GameObject:
   - component: {fileID: 1852486033}
   - component: {fileID: 1852486032}
   - component: {fileID: 1852486031}
+  - component: {fileID: 1852486035}
   m_Layer: 0
-  m_Name: Onion (3)
-  m_TagString: Untagged
+  m_Name: Onion
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14572,6 +15546,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &1852486035
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852486030}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
 --- !u!1 &1855747252
 GameObject:
   m_ObjectHideFlags: 0
@@ -14751,9 +15739,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1867854417}
+  - component: {fileID: 1867854419}
   m_Layer: 0
-  m_Name: 7up (1)
-  m_TagString: Untagged
+  m_Name: 7Up
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14776,6 +15765,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: -90.00001, y: 90, z: 0}
+--- !u!64 &1867854419
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867854416}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1874883785
 GameObject:
   m_ObjectHideFlags: 0
@@ -15183,9 +16186,10 @@ GameObject:
   - component: {fileID: 1935199610}
   - component: {fileID: 1935199609}
   - component: {fileID: 1935199608}
+  - component: {fileID: 1935199612}
   m_Layer: 0
-  m_Name: Wine (16)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15251,6 +16255,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1935199612
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1935199607}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1001 &1959537721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15261,6 +16279,10 @@ PrefabInstance:
     - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_Name
       value: Hamburger
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15507,7 +16529,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_Name
-      value: Hamburger (2)
+      value: Hamburger
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 3bb00f3bce37f384192a4f70fff11ed8, type: 3}
       propertyPath: m_LocalRotation.x
@@ -15614,9 +16640,10 @@ GameObject:
   - component: {fileID: 1976023433}
   - component: {fileID: 1976023432}
   - component: {fileID: 1976023431}
+  - component: {fileID: 1976023435}
   m_Layer: 0
-  m_Name: Wine (6)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15682,6 +16709,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1976023435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976023430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1 &1992983516
 GameObject:
   m_ObjectHideFlags: 0
@@ -16088,9 +17129,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2042780095}
   - component: {fileID: 2042780096}
+  - component: {fileID: 2042780098}
   m_Layer: 0
-  m_Name: 7up
-  m_TagString: Untagged
+  m_Name: 7Up
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16127,6 +17169,20 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 0}
+--- !u!64 &2042780098
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042780094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &2048650308
 GameObject:
   m_ObjectHideFlags: 0
@@ -16138,9 +17194,10 @@ GameObject:
   - component: {fileID: 2048650311}
   - component: {fileID: 2048650310}
   - component: {fileID: 2048650309}
+  - component: {fileID: 2048650313}
   m_Layer: 0
   m_Name: Banana (2)
-  m_TagString: Untagged
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16204,6 +17261,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!64 &2048650313
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048650308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: d61abd88cdc3aba43995791439d8af7c, type: 3}
 --- !u!1 &2062182419
 GameObject:
   m_ObjectHideFlags: 0
@@ -16369,9 +17440,10 @@ GameObject:
   - component: {fileID: 2074422899}
   - component: {fileID: 2074422898}
   - component: {fileID: 2074422897}
+  - component: {fileID: 2074422901}
   m_Layer: 0
-  m_Name: Cylinder (1)
-  m_TagString: Untagged
+  m_Name: Beans
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16435,6 +17507,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 54
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &2074422901
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074422896}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 41db564736b8df4459f1b7a93bb51da9, type: 3}
 --- !u!1001 &2088847780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16444,7 +17530,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100294, guid: adadb377b4c97b348951fc96bd369ea5, type: 3}
       propertyPath: m_Name
-      value: Window (1)
+      value: Window
       objectReference: {fileID: 0}
     - target: {fileID: 400294, guid: adadb377b4c97b348951fc96bd369ea5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16503,9 +17589,10 @@ GameObject:
   - component: {fileID: 2093918334}
   - component: {fileID: 2093918333}
   - component: {fileID: 2093918332}
+  - component: {fileID: 2093918336}
   m_Layer: 0
-  m_Name: Wine (11)
-  m_TagString: Untagged
+  m_Name: Wine
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16571,6 +17658,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &2093918336
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2093918331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300020, guid: 796f1597df42683468ca76ea6d324790, type: 3}
 --- !u!1001 &2098680548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16580,7 +17681,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100004, guid: 156665081e0e6304186a4c3e61614892, type: 3}
       propertyPath: m_Name
-      value: Foil (1)
+      value: Foil
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 156665081e0e6304186a4c3e61614892, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 156665081e0e6304186a4c3e61614892, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16726,7 +17831,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_Name
-      value: Coke Can
+      value: Coke
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
+      propertyPath: m_TagString
+      value: Product
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 83a3c1913b7709644b3baa7022081b1a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16961,20 +18070,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1646684591}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &2112662921
-MeshCollider:
+--- !u!114 &2112662921
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112662919}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cdf5f1e616a39f4eba76afefc9a83cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2121558169 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100016, guid: 7998741f4bbca59439f8ffe3eceb626b,
@@ -17083,9 +18190,10 @@ GameObject:
   - component: {fileID: 2146626398}
   - component: {fileID: 2146626397}
   - component: {fileID: 2146626396}
+  - component: {fileID: 2146626400}
   m_Layer: 0
-  m_Name: Spicy (1)
-  m_TagString: Untagged
+  m_Name: Spicy
+  m_TagString: Product
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17149,3 +18257,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: -180}
+--- !u!64 &2146626400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146626395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300004, guid: c11d0bea70339a542a051d3ccb1f52f9, type: 3}
