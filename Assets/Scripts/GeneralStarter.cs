@@ -9,7 +9,7 @@ public class GeneralStarter : MonoBehaviour
     void Start()
     {
 
-        List<GeneralProduct> generalProductList = APIManager.GetProduct("http://localhost:5002/api/products");
+        List<GeneralProduct> generalProductList = APIManager.GetProducts("http://localhost:5002/api/products");
 
         GameObject boardsObject = GameObject.Find("Boards");
 

@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 public static class APIManager
 {
 
-    public static List<GeneralProduct> GetProduct(string url)
+    public static List<GeneralProduct> GetProducts(string url)
     {
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
         HttpWebResponse response = (HttpWebResponse)request.GetResponse();
@@ -16,6 +16,51 @@ public static class APIManager
 
         List<GeneralProduct> items = JsonConvert.DeserializeObject<List<GeneralProduct>>(json);
         return items;
-        //return JsonUtility.FromJson<string>(json);
+    }
+
+    public static string CreateBasket(string url, Basket products)
+    {
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+
+        using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+        {
+            string json = JsonConvert.SerializeObject(products);
+
+
+            streamWriter.Write(json);
+        }
+
+        var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+        using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+        {
+            var result = streamReader.ReadToEnd();
+            Debug.Log(result);
+            return result;
+        }
+    }
+
+    public static string CreatePurchase(string url, Purchase data)
+    {
+        var httpWebRequest = (HttpWebRequest)WebRequest.Create(url);
+        httpWebRequest.ContentType = "application/json";
+        httpWebRequest.Method = "POST";
+
+        using (var streamWriter = new StreamWriter(httpWebRequest.GetRequestStream()))
+        {
+            string json = JsonConvert.SerializeObject(data);
+
+
+            streamWriter.Write(json);
+        }
+
+        var httpResponse = (HttpWebResponse)httpWebRequest.GetResponse();
+        using (var streamReader = new StreamReader(httpResponse.GetResponseStream()))
+        {
+            var result = streamReader.ReadToEnd();
+            Debug.Log(result);
+            return result;
+        }
     }
 }
