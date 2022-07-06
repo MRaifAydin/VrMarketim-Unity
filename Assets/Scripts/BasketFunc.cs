@@ -8,7 +8,7 @@ public class BasketFunc : MonoBehaviour
 {
 
     GameObject selectedObject;
-    int i = 0;
+    //int i = 0;
     string products;
     Transform transferText;
     GameObject transferObj;
@@ -34,7 +34,7 @@ public class BasketFunc : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyUp(KeyCode.Joystick1Button0))
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             selectedObject = GameObject.Find(RaycastToObject.selectedObject);
             if (selectedObject.tag == "Product")
@@ -44,9 +44,9 @@ public class BasketFunc : MonoBehaviour
                 duplicateObj.transform.localPosition = new Vector3(0, 0, 0);
                 duplicateObj.transform.localScale = Vector3.one;
                 duplicateObj.AddComponent<Rigidbody>();
-                Debug.Log(duplicateObj.name.Replace("(Clone)", ""));
+                duplicateObj.name.Replace("(Clone)", "");
                 products += duplicateObj.name.Replace("(Clone)", "") + ",";
-                i++;
+                //i++;
                 transferText.GetComponent<UnityEngine.UI.Text>().text += duplicateObj.name.Replace("(Clone)", "") + "\n";
             }
 
@@ -54,7 +54,7 @@ public class BasketFunc : MonoBehaviour
             if (selectedObject.name == "Basket-Button")
             {
                 Basket pBasket = new Basket();
-                pBasket.AccountId = 367;
+                pBasket.AccountId = new System.Random().Next(1, 999);
                 pBasket.Products = "" + products;
                 string response = APIManager.CreateBasket("http://localhost:5002/api/baskets", pBasket);
                 int numberEnd = response.IndexOf(",");
@@ -68,7 +68,7 @@ public class BasketFunc : MonoBehaviour
             {
                 Purchase pPurchase = new Purchase();
                 pPurchase.basketId = deneme;
-                Debug.Log(APIManager.CreatePurchase("http://localhost:5002/api/purchase", pPurchase));
+                APIManager.CreatePurchase("http://localhost:5002/api/purchase", pPurchase);
 
                 purchaseButtonText.GetComponent<UnityEngine.UI.Text>().text = "Başarılı";
             }
